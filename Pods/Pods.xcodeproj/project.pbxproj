@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F7DE0F10688BCE6B0BB4B6F1BFCECAB /* MZAlertController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 142002E3CC1FBF6891B7E9F8795AF8BB /* MZAlertController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4819EE8F5AA424CEAAD3764FFEBA5A51 /* MZAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B831532B2D5209D0055235FF82634F /* MZAlertController.swift */; };
+		4890B69DD78AB9AE58ABB7FFE7ED69A2 /* MZPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112350368135C2207869814775DAEAA0 /* MZPresentationController.swift */; };
+		4A2BA72189ADF76B1BC18C950AABB3B2 /* MZActionSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54B356F7CADB72DFFF91FC34D6000DB /* MZActionSheetController.swift */; };
+		4C86AB343966D7BCFBC69FDB26595084 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4E0F6A779ED33A0E9ECB4213AB704F2A /* Pods-MZDatePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC4CD2C3E7F6A20888A2C2E4AFB41DD1 /* Pods-MZDatePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5744A34B130FBBA0240CA94E34DE2CB5 /* MZActionSheetDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D422DEF47A579E5AB50FAABED5DF76ED /* MZActionSheetDelegate.swift */; };
+		593C9EED961F5B88947C4C8F1909BCD5 /* Pods-MZDatePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD726022FEF10D102DA9C140BCBDDE7 /* Pods-MZDatePicker-dummy.m */; };
+		6AD222F86646D4DB021B6E3C420EED68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9E921576F19200FBF1B3083CBC228901 /* MZAlertController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C49FBD1CF6D11D14CBDB83BE6449D0E9 /* MZAlertController-dummy.m */; };
+		F8502AC5918994D18607776BF562D3D4 /* MZAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = 06EE81A3EAC5BB73081653E2B04FBA8F /* MZAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE36A61FD71A40713B955590991963F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0108B4C90F0946122E6308B9BCBB4D3D;
+			remoteInfo = MZAlertController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06EE81A3EAC5BB73081653E2B04FBA8F /* MZAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZAlertController.h; path = MZAlertController/MZAlertController/MZAlertController.h; sourceTree = "<group>"; };
+		112350368135C2207869814775DAEAA0 /* MZPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MZPresentationController.swift; path = MZAlertController/MZAlertController/MZPresentationController.swift; sourceTree = "<group>"; };
+		142002E3CC1FBF6891B7E9F8795AF8BB /* MZAlertController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MZAlertController-umbrella.h"; sourceTree = "<group>"; };
+		1501881E4D7297FFE243FACDF2BCB0C8 /* MZAlertController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MZAlertController-prefix.pch"; sourceTree = "<group>"; };
+		1AA962B60C235FE0B2EEF01EBDCA51CE /* MZAlertController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MZAlertController.framework; path = MZAlertController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21779F4C6168D9A862277912F9931EB2 /* MZAlertController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MZAlertController.debug.xcconfig; sourceTree = "<group>"; };
+		25A1DCC5F510AF7ECBC58439E3B8DD0B /* MZAlertController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MZAlertController.modulemap; sourceTree = "<group>"; };
+		274DDE751F8D51CC8C03E4C8CE0B47F7 /* MZAlertController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MZAlertController.release.xcconfig; sourceTree = "<group>"; };
+		301BFD5AAFE8CBA335C92458A81B24DE /* Pods-MZDatePicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MZDatePicker.release.xcconfig"; sourceTree = "<group>"; };
+		4FD726022FEF10D102DA9C140BCBDDE7 /* Pods-MZDatePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MZDatePicker-dummy.m"; sourceTree = "<group>"; };
+		5C8138B7DF14228A0FC47B601D0147AA /* Pods-MZDatePicker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MZDatePicker-acknowledgements.plist"; sourceTree = "<group>"; };
+		5FE5B6B45C3026823A78015F0916FE67 /* Pods-MZDatePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MZDatePicker.modulemap"; sourceTree = "<group>"; };
+		71E3C6B6914CE4F01B1228E35152D166 /* Pods-MZDatePicker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MZDatePicker-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7C9B514EE2575B57713464DF59159A67 /* Pods-MZDatePicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MZDatePicker-Info.plist"; sourceTree = "<group>"; };
+		9628D39137BDDA6BE6F3789D07E67215 /* Pods-MZDatePicker-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MZDatePicker-frameworks.sh"; sourceTree = "<group>"; };
+		97B831532B2D5209D0055235FF82634F /* MZAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MZAlertController.swift; path = MZAlertController/MZAlertController/MZAlertController.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC4CD2C3E7F6A20888A2C2E4AFB41DD1 /* Pods-MZDatePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MZDatePicker-umbrella.h"; sourceTree = "<group>"; };
+		B7A27E46DDFAE4FDECF55EB4ACC5D3B2 /* Pods_MZDatePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MZDatePicker.framework; path = "Pods-MZDatePicker.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C49FBD1CF6D11D14CBDB83BE6449D0E9 /* MZAlertController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MZAlertController-dummy.m"; sourceTree = "<group>"; };
+		C54B356F7CADB72DFFF91FC34D6000DB /* MZActionSheetController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MZActionSheetController.swift; path = MZAlertController/MZAlertController/MZActionSheetController.swift; sourceTree = "<group>"; };
+		D115133E258ABAEEBF3C84AFD5D74DA5 /* MZAlertController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MZAlertController-Info.plist"; sourceTree = "<group>"; };
+		D422DEF47A579E5AB50FAABED5DF76ED /* MZActionSheetDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MZActionSheetDelegate.swift; path = MZAlertController/MZAlertController/MZActionSheetDelegate.swift; sourceTree = "<group>"; };
+		E5F8BCB45E92F442B1477905E8C77DE6 /* Pods-MZDatePicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MZDatePicker.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D43B08A29E99B8C418D4A633D0B7ECE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C86AB343966D7BCFBC69FDB26595084 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44CF05E0E3BC3E12F6DA620D16581D62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AD222F86646D4DB021B6E3C420EED68 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A18F87D2605FA447AC4517BCAD0F65D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				25A1DCC5F510AF7ECBC58439E3B8DD0B /* MZAlertController.modulemap */,
+				C49FBD1CF6D11D14CBDB83BE6449D0E9 /* MZAlertController-dummy.m */,
+				D115133E258ABAEEBF3C84AFD5D74DA5 /* MZAlertController-Info.plist */,
+				1501881E4D7297FFE243FACDF2BCB0C8 /* MZAlertController-prefix.pch */,
+				142002E3CC1FBF6891B7E9F8795AF8BB /* MZAlertController-umbrella.h */,
+				21779F4C6168D9A862277912F9931EB2 /* MZAlertController.debug.xcconfig */,
+				274DDE751F8D51CC8C03E4C8CE0B47F7 /* MZAlertController.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MZAlertController";
+			sourceTree = "<group>";
+		};
+		1E09870844C239238467BF735AF3CFD3 /* MZAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				C54B356F7CADB72DFFF91FC34D6000DB /* MZActionSheetController.swift */,
+				D422DEF47A579E5AB50FAABED5DF76ED /* MZActionSheetDelegate.swift */,
+				06EE81A3EAC5BB73081653E2B04FBA8F /* MZAlertController.h */,
+				97B831532B2D5209D0055235FF82634F /* MZAlertController.swift */,
+				112350368135C2207869814775DAEAA0 /* MZPresentationController.swift */,
+				0A18F87D2605FA447AC4517BCAD0F65D /* Support Files */,
+			);
+			name = MZAlertController;
+			path = MZAlertController;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5AA6DE2DEE1F202BC0EF3C6BF897CDEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AA962B60C235FE0B2EEF01EBDCA51CE /* MZAlertController.framework */,
+				B7A27E46DDFAE4FDECF55EB4ACC5D3B2 /* Pods_MZDatePicker.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A35488D7891A46E50962BFD29B8A523 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E09870844C239238467BF735AF3CFD3 /* MZAlertController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		74EA267900C8C092EC1FD8293245FB15 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED3929B37246907F9F4F01D98201434F /* Pods-MZDatePicker */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				6A35488D7891A46E50962BFD29B8A523 /* Pods */,
+				5AA6DE2DEE1F202BC0EF3C6BF897CDEC /* Products */,
+				74EA267900C8C092EC1FD8293245FB15 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED3929B37246907F9F4F01D98201434F /* Pods-MZDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				5FE5B6B45C3026823A78015F0916FE67 /* Pods-MZDatePicker.modulemap */,
+				71E3C6B6914CE4F01B1228E35152D166 /* Pods-MZDatePicker-acknowledgements.markdown */,
+				5C8138B7DF14228A0FC47B601D0147AA /* Pods-MZDatePicker-acknowledgements.plist */,
+				4FD726022FEF10D102DA9C140BCBDDE7 /* Pods-MZDatePicker-dummy.m */,
+				9628D39137BDDA6BE6F3789D07E67215 /* Pods-MZDatePicker-frameworks.sh */,
+				7C9B514EE2575B57713464DF59159A67 /* Pods-MZDatePicker-Info.plist */,
+				AC4CD2C3E7F6A20888A2C2E4AFB41DD1 /* Pods-MZDatePicker-umbrella.h */,
+				E5F8BCB45E92F442B1477905E8C77DE6 /* Pods-MZDatePicker.debug.xcconfig */,
+				301BFD5AAFE8CBA335C92458A81B24DE /* Pods-MZDatePicker.release.xcconfig */,
+			);
+			name = "Pods-MZDatePicker";
+			path = "Target Support Files/Pods-MZDatePicker";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2683D60BF5DA3658D0BB6C1D3AC57FC5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E0F6A779ED33A0E9ECB4213AB704F2A /* Pods-MZDatePicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8257D04C938580F9E07F1918470213A2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F7DE0F10688BCE6B0BB4B6F1BFCECAB /* MZAlertController-umbrella.h in Headers */,
+				F8502AC5918994D18607776BF562D3D4 /* MZAlertController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0108B4C90F0946122E6308B9BCBB4D3D /* MZAlertController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8EC3613019ADF292573E57C5DDCDD41 /* Build configuration list for PBXNativeTarget "MZAlertController" */;
+			buildPhases = (
+				8257D04C938580F9E07F1918470213A2 /* Headers */,
+				E267749A5C3DCB76483A4CDA203FF7E0 /* Sources */,
+				44CF05E0E3BC3E12F6DA620D16581D62 /* Frameworks */,
+				F2614E1672B2CDC6AD2C6037F1A2FCF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MZAlertController;
+			productName = MZAlertController;
+			productReference = 1AA962B60C235FE0B2EEF01EBDCA51CE /* MZAlertController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F911D6250EF1363B959C610BFF89A5F8 /* Pods-MZDatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE6C246DBCEB41DBE4D877CC4ABC611 /* Build configuration list for PBXNativeTarget "Pods-MZDatePicker" */;
+			buildPhases = (
+				2683D60BF5DA3658D0BB6C1D3AC57FC5 /* Headers */,
+				8F57667BC7DA42B8D738CA5B3F2F2050 /* Sources */,
+				0D43B08A29E99B8C418D4A633D0B7ECE /* Frameworks */,
+				633053E03D8F40F92887476DDAC43B5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA0B7CB037BEABB01FB2CA04C7309819 /* PBXTargetDependency */,
+			);
+			name = "Pods-MZDatePicker";
+			productName = "Pods-MZDatePicker";
+			productReference = B7A27E46DDFAE4FDECF55EB4ACC5D3B2 /* Pods_MZDatePicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5AA6DE2DEE1F202BC0EF3C6BF897CDEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0108B4C90F0946122E6308B9BCBB4D3D /* MZAlertController */,
+				F911D6250EF1363B959C610BFF89A5F8 /* Pods-MZDatePicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		633053E03D8F40F92887476DDAC43B5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2614E1672B2CDC6AD2C6037F1A2FCF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F57667BC7DA42B8D738CA5B3F2F2050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				593C9EED961F5B88947C4C8F1909BCD5 /* Pods-MZDatePicker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E267749A5C3DCB76483A4CDA203FF7E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A2BA72189ADF76B1BC18C950AABB3B2 /* MZActionSheetController.swift in Sources */,
+				5744A34B130FBBA0240CA94E34DE2CB5 /* MZActionSheetDelegate.swift in Sources */,
+				9E921576F19200FBF1B3083CBC228901 /* MZAlertController-dummy.m in Sources */,
+				4819EE8F5AA424CEAAD3764FFEBA5A51 /* MZAlertController.swift in Sources */,
+				4890B69DD78AB9AE58ABB7FFE7ED69A2 /* MZPresentationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA0B7CB037BEABB01FB2CA04C7309819 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MZAlertController;
+			target = 0108B4C90F0946122E6308B9BCBB4D3D /* MZAlertController */;
+			targetProxy = AE36A61FD71A40713B955590991963F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		24B629A82E0BA08A506B0641C3E7B2A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 301BFD5AAFE8CBA335C92458A81B24DE /* Pods-MZDatePicker.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MZDatePicker/Pods-MZDatePicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MZDatePicker/Pods-MZDatePicker.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		39D254EEAFA9E563F8212EE8F970C031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21779F4C6168D9A862277912F9931EB2 /* MZAlertController.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MZAlertController/MZAlertController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MZAlertController/MZAlertController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MZAlertController/MZAlertController.modulemap";
+				PRODUCT_MODULE_NAME = MZAlertController;
+				PRODUCT_NAME = MZAlertController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7DBE3335C832A3BB97CDF7EEA327A7A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 274DDE751F8D51CC8C03E4C8CE0B47F7 /* MZAlertController.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MZAlertController/MZAlertController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MZAlertController/MZAlertController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MZAlertController/MZAlertController.modulemap";
+				PRODUCT_MODULE_NAME = MZAlertController;
+				PRODUCT_NAME = MZAlertController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9C31813F89B9B857CFE34D32478D9670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5F8BCB45E92F442B1477905E8C77DE6 /* Pods-MZDatePicker.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MZDatePicker/Pods-MZDatePicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MZDatePicker/Pods-MZDatePicker.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8EC3613019ADF292573E57C5DDCDD41 /* Build configuration list for PBXNativeTarget "MZAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39D254EEAFA9E563F8212EE8F970C031 /* Debug */,
+				7DBE3335C832A3BB97CDF7EEA327A7A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDE6C246DBCEB41DBE4D877CC4ABC611 /* Build configuration list for PBXNativeTarget "Pods-MZDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C31813F89B9B857CFE34D32478D9670 /* Debug */,
+				24B629A82E0BA08A506B0641C3E7B2A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

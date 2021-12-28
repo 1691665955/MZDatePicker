@@ -1,0 +1,6 @@
+framework module MZAlertController {
+  umbrella header "MZAlertController-umbrella.h"
+
+  export *
+  module * { export * }
+}

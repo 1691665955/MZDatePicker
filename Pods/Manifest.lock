@@ -1,0 +1,16 @@
+PODS:
+  - MZAlertController (0.0.1)
+
+DEPENDENCIES:
+  - MZAlertController (~> 0.0.1)
+
+SPEC REPOS:
+  trunk:
+    - MZAlertController
+
+SPEC CHECKSUMS:
+  MZAlertController: 3cad019602381649e3abc1dabea1948e55a8b3d5
+
+PODFILE CHECKSUM: d70f1849c6e7324ab55c012939a5a11ef22c0bed
+
+COCOAPODS: 1.10.1
