@@ -16,7 +16,7 @@ public protocol MZDatePickerControllerDelegate: NSObjectProtocol {
 open class MZDatePickerController: MZActionSheetController {
     
     /// 代理
-    public var delegate: MZDatePickerControllerDelegate?
+    public weak var delegate: MZDatePickerControllerDelegate?
     
     /// 起始时间    1970-01-01 08:00:00
     public var startDate: Date? {

@@ -24,7 +24,7 @@ public protocol MZDatePickerViewDelegate: NSObjectProtocol {
 open class MZDatePickerView: UIView, MZPickerViewDataSource, MZPickerViewDelegate {
     
     /// 代理
-    public var delegate: MZDatePickerViewDelegate?
+    public weak var delegate: MZDatePickerViewDelegate?
     
     /// 起始时间    1970-01-01 08:00:00
     public var startDate: Date = Date(timeIntervalSince1970: 0)

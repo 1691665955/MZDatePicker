@@ -10,10 +10,10 @@ import MZAlertController
 open class MZPickerController: MZActionSheetController, MZPickerViewDataSource, MZPickerViewDelegate {
     
     /// MZPickerController数据源
-    public var dataSource: MZPickerControllerDataSource?
+    public weak var dataSource: MZPickerControllerDataSource?
     
     /// MZPickerController代理
-    public var delegate: MZPickerControllerDelegate?
+    public weak var delegate: MZPickerControllerDelegate?
     
     /// 取消按钮标题
     public var cancelTitle: String? {

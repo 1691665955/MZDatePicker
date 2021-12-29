@@ -10,14 +10,14 @@ import UIKit
 open class MZPickerView: UIView, UITableViewDataSource, UITableViewDelegate {
     
     /// MZPickerView数据源
-    public var dateSource: MZPickerViewDataSource? {
+    public weak var dateSource: MZPickerViewDataSource? {
         didSet {
             self.setupUI()
         }
     }
     
     /// MZPickerView代理
-    public var delegate: MZPickerViewDelegate?
+    public weak var delegate: MZPickerViewDelegate?
     
     /// 未选中颜色
     public var normalColor: UIColor = .lightGray
