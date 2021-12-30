@@ -32,7 +32,7 @@ open class MZPickerView: UIView, UITableViewDataSource, UITableViewDelegate {
     public var selectedFont: UIFont = .systemFont(ofSize: 16)
     
     /// 选中行
-    public var rows = [Int]()
+    public private(set) var rows = [Int]()
     
     lazy var pickers: [UITableView] = {
         let array = [UITableView]()
