@@ -169,6 +169,22 @@ open class MZPickerView: UIView, UITableViewDataSource, UITableViewDelegate {
     }
     
     //MARK:- UIScrollViewDelegate
+    public func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
+        for tableView in self.pickers {
+            if tableView != scrollView {
+                tableView.isUserInteractionEnabled = false
+            }
+        }
+    }
+    
+    public func scrollViewDidEndScrollingAnimation(_ scrollView: UIScrollView) {
+        if scrollView.isUserInteractionEnabled {
+            for tableView in self.pickers {
+                tableView.isUserInteractionEnabled = true
+            }
+        }
+    }
+    
     public func scrollViewDidScroll(_ scrollView: UIScrollView) {
         if let tableView = scrollView as? UITableView {
             var indexPath = tableView.indexPathForRow(at: CGPoint(x: 0, y: tableView.contentOffset.y + tableView.contentInset.top))

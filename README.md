@@ -7,7 +7,7 @@ swift扁平化日期选择组件、包含View和Controller两种形式
 
 #### Cocoapods 引入
 ```
-pod 'MZDatePicker', '~> 0.0.1'
+pod 'MZDatePicker', '~> 0.0.2'
 ```
 
 #### MZPickerView
